@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: linpf-app1
+  host: linpf-app1
+  disk_quota: 1024M
+  services:
+  - linpf-app1-cloudantNoSQLDB
+  - linpf-app1-iotf-service
